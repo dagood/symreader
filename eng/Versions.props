@@ -20,12 +20,4 @@
     <MicrosoftDiaSymReaderNativeVersion>1.7.0</MicrosoftDiaSymReaderNativeVersion>
     <MicrosoftSourceLinkVersion>1.0.0-beta-63001-01</MicrosoftSourceLinkVersion>
   </PropertyGroup>
-
-  <PropertyGroup>
-    <RestoreSources>
-      $(RestoreSources);
-      https://dotnet.myget.org/F/symreader-native/api/v3/index.json;
-      https://dotnet.myget.org/F/dotnet-core/api/v3/index.json
-    </RestoreSources>
-  </PropertyGroup>
 </Project>
